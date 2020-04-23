@@ -1,11 +1,15 @@
 # Chapter One Exercises
 
-1.1.1 What is the difference between a compiler and an interpreter?
+1.1.1 
+
+What is the difference between a compiler and an interpreter?
 
 A *compiler* reads the source program and then coverts it into the *target* language.
 A *interpreter* directly executes the operation specified in the source program on inputs given by the user.
 
-1.1.2 What are the advantages of a compiler over an interpreter; an interpreter over a compiler?
+1.1.2 
+
+What are the advantages of a compiler over an interpreter; an interpreter over a compiler?
 
 The machine language target program produced by a compiler is usually much faster than an interpreter at mapping
 inputs to outputs.
