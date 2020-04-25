@@ -31,3 +31,7 @@ Phases of Compilation
             7. 60 is a lexeme that is mapped to the token <60>.
             8. This evaluates to: <id, 1> <=> <id, 2> <+> <id, 3> <*> <60>
             9. Technically the lexeme <60> should evaluate to a token like <number, 4>.
+            
+*Call-by-value* - The actual parameter is evaluated or copied. The value is then placed in the location belonging to the corresponding formal parameter of the called procedure. Call-by-value has the effect that all computation involving the formal parameters done by the called procedure is local to that procedure and the actual parameters themselves cannot be changed. 
+
+*Call-by-reference* - The address of the actual parameter is passed to the callee as the value of the corresponding forma parameter. Uses of the formal parameter in the code of the callee are implemented by following this pointer to the location indicated by the caller. Changes to the formal parameter thus appear as changed to the actual parameter. 
