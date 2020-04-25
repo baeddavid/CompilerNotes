@@ -35,3 +35,4 @@ Describe some of the tasks an assembler needs to perform
 
 * An assembler produces relocatable machine code as an output.
 * Can be used in large programs to modularize code and then link together with other relocatable object files. 
+
