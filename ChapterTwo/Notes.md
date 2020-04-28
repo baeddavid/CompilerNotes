@@ -8,6 +8,10 @@ Two forms of intermediate code
     * 
 2. Sequence of Three-Address - This form of intermediate code takes its name from instructions of the form x = y op z, where op is a binary operator, y and z are the addresses for the operands, and x is the address for the result of the operation. 
 
+stmt —> if ( expr ) stmt else stmt 
+in which the arrow may be read as “can have the form.” Statement can have the form if expression statement else statement.
+Such a rule is called a production. Variables like expr and stmt represent sequences of terminals and are called nonterminals.
+
 * Context-free grammar
     1. Terminal - A set of terminal symbols, sometimes referred to as “tokens”. The terminals are the elementary symbols of the language defined by the grammar.
     2. Nonterminals - A set of nonterminals, sometimes called “syntactic variable.” Each nonterminal represents a set of strings of terminals, in a manner we shall describe.
