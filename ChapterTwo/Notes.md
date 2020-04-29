@@ -17,3 +17,5 @@ Such a rule is called a production. Variables like expr and stmt represent seque
     2. Nonterminals - A set of nonterminals, sometimes called “syntactic variable.” Each nonterminal represents a set of strings of terminals, in a manner we shall describe.
     3. Productions - A set of productions where each production consists of a nonterminal, called the head or left side of the production, an arrow, and a sequence terminals and/or nonterminals, called the body or right side of the production. The unintuitive intent of a production is to spec one of the written forms of a construct; if the head nonterminal represents a construct, then the body represents a written form of the construct.
     4. A designation of one of the nonterminals as the start symbol.
+
+A nonterminal consisting of another nonterminal which consists of a terminal is not a terminal. This is because nonterminals have a starting symbol.
